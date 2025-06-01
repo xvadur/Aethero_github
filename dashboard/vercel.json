@@ -1,5 +1,6 @@
 {
   "version": 2,
-  "builds": [],
-  "outputDirectory": "public"
+  "buildCommand": "echo 'Static files ready'",
+  "outputDirectory": "public",
+  "framework": null
 }
