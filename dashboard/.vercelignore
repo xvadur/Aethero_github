@@ -1,0 +1,12 @@
+# AetheroOS Deploy Ignore
+*.pyc
+__pycache__/
+*.log
+.pytest_cache/
+test_*.py
+requirements.txt
+.vscode/
+.git/
+README.md
+*.md
+node_modules/

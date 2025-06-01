@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run Dashboard Validation",
+			"command": "python",
+			"args": [
+				"-m",
+				"http.server",
+				"--directory",
+				"dashboard"
+			],
+			"problemMatcher": [],
+			"group": "build",
+			"isBackground": true
+		}
+	]
+}
