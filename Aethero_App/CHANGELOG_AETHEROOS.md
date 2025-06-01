@@ -8,9 +8,11 @@
 - Zjednotenie všetkých modulov do jedného GitHub repozitára.
 - Aktualizácia `.gitignore` na podporu Vercel a ďalších systémových súborov.
 - ✅ **Finálna konfigurácia Vercel deploymentu**: Dashboard pripravený s `public/` zložkou, optimalizované `vercel.json` (v2 format), `package.json` s port 3000.
+- Synchronizácia všetkých komponentov medzi GitHub a Hugging Face Space.
+- Hostovanie syntaxátora AetheroOS cez FastAPI na porte 7860.
 
 ### Poznámka
-Dashboard je teraz plne deployovateľný na Vercel s automatickým CI/CD cez GitHub.
+Dashboard je teraz plne deployovateľný na Vercel s automatickým CI/CD cez GitHub. Táto verzia je priebežný commit a nie je finálna. Ďalšie iterácie budú nasledovať.
 
 ## [v0.2.1] – 2025-06-01
 🔧 Refactor: parser.py, ASLMetaParser
