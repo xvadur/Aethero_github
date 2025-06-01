@@ -1,4 +1,5 @@
 {
+  "name": "aethero-dashboard",
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
