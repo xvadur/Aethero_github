@@ -1,0 +1,37 @@
+cognitive_complexity: 1.0
+dominance:
+  dominant_voice: inner_conflict
+  dual_tension:
+  - struggle
+  - acceptance
+emotion_map:
+  anger: 0.3
+  despair: 0.7
+  hope: 0.5
+  sadness: 0.6
+emotional_intensity: 0.0
+keywords:
+- "C\xEDtim"
+- "\u017Ee"
+- sa
+- mi
+- realita
+- "rozpad\xE1"
+- pod
+- rukami
+- ale
+- "z\xE1rove\u0148"
+- "m\xE1m"
+- "chu\u0165"
+- "bojova\u0165"
+meta_analysis:
+  notes: "Text ukazuje introspekt\xEDvnu anal\xFDzu s vysokou mierou emocion\xE1lnej\
+    \ intenzity."
+  syntax_awareness: true
+projection:
+  command_tone: false
+  desire_for_validation: true
+  hidden_demand: true
+sentiment:
+- label: NEGATIVE
+  score: 0.9938467144966125

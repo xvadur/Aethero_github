@@ -1,0 +1,35 @@
+- name: introspective_parser
+  path: introspective_parser_module/parser.py
+  type: core
+  status: stable
+  description: Introspective parser for ASL tags and cognitive validation
+
+- name: metrics_module
+  path: introspective_parser_module/metrics.py
+  type: core
+  status: stable
+  description: Module for analyzing cognitive load and generating introspective reports
+
+- name: reflection_agents
+  path: reflection/
+  type: subsystem
+  status: experimental
+  description: Agents for deep introspective analysis and actionable insights
+
+- name: memory_units
+  path: memory/
+  type: subsystem
+  status: stable
+  description: Memory storage and retrieval for structured cognitive data
+
+- name: dashboard
+  path: dashboard/
+  type: interface
+  status: stable
+  description: Visualization of introspective data and system metrics
+
+- name: monitoring_stack
+  path: monitoring/
+  type: infrastructure
+  status: stable
+  description: Prometheus and Grafana stack for system monitoring

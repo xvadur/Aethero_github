@@ -1,0 +1,92 @@
+{
+  "export_timestamp": "2025-06-01T06:42:30.213940",
+  "aethero_version": "v2.0_pydantic",
+  "total_tags": 5,
+  "tags": [
+    {
+      "entity_id": "5ba9a18d-b35d-45fa-92b6-7f166fcdb216",
+      "thought_stream": "Vnímam hlboký pokoj v mysli, myšlienky sa spomaľujú a nastáva jasnosť",
+      "mental_state": "calm",
+      "emotion_tone": "positive",
+      "cognitive_load": 3,
+      "temporal_context": "present",
+      "certainty_level": 0.9,
+      "consciousness_level": 0.515,
+      "introspective_depth": 0.65,
+      "constitutional_law": "Zákon o vnútornom pokoji a harmonii",
+      "consciousness_resonance": {
+        "scenario": "🧘 Meditačná analýza",
+        "timestamp": "2025-06-01T06:42:30.213522",
+        "cognitive_signature": "calm_positive"
+      }
+    },
+    {
+      "entity_id": "25c53c81-5234-4442-92b1-d3676b0531bf",
+      "thought_stream": "Rozkladám komplexný problém na menšie časti, hľadám vzorce a súvislosti",
+      "mental_state": "focused",
+      "emotion_tone": "analytical",
+      "cognitive_load": 7,
+      "temporal_context": "present",
+      "certainty_level": 0.75,
+      "consciousness_level": 0.515,
+      "introspective_depth": 0.65,
+      "constitutional_law": "Zákon o systematickom uvažovaní",
+      "consciousness_resonance": {
+        "scenario": "🔍 Analytické uvažovanie",
+        "timestamp": "2025-06-01T06:42:30.213569",
+        "cognitive_signature": "focused_analytical"
+      }
+    },
+    {
+      "entity_id": "efb6bed3-e326-429a-a7b5-50fedf2f6863",
+      "thought_stream": "Premýšľam o minulých rozhodnutiach a ich dopadoch na súčasnosť",
+      "mental_state": "reflective",
+      "emotion_tone": "analytical",
+      "cognitive_load": 5,
+      "temporal_context": "past",
+      "certainty_level": 0.6,
+      "consciousness_level": 0.515,
+      "introspective_depth": 0.65,
+      "constitutional_law": "Zákon o historickej múdrosti",
+      "consciousness_resonance": {
+        "scenario": "💭 Reflexívne spomínanie",
+        "timestamp": "2025-06-01T06:42:30.213600",
+        "cognitive_signature": "reflective_analytical"
+      }
+    },
+    {
+      "entity_id": "f8e3987b-fdda-4532-99f2-01bcaa6d9259",
+      "thought_stream": "Mám jasný plán, viem presne čo treba urobiť a ako to vykonať",
+      "mental_state": "decisive",
+      "emotion_tone": "positive",
+      "cognitive_load": 6,
+      "temporal_context": "future",
+      "certainty_level": 0.95,
+      "consciousness_level": 0.515,
+      "introspective_depth": 0.65,
+      "constitutional_law": "Zákon o rozhodných činoch",
+      "consciousness_resonance": {
+        "scenario": "⚡ Rozhodný čin",
+        "timestamp": "2025-06-01T06:42:30.213794",
+        "cognitive_signature": "decisive_positive"
+      }
+    },
+    {
+      "entity_id": "03dd9dda-ee35-407a-8e58-a1e6c431be3b",
+      "thought_stream": "Uvažujem o hlbších otázkach existencie a zmysle bytia",
+      "mental_state": "contemplative",
+      "emotion_tone": "empathetic",
+      "cognitive_load": 8,
+      "temporal_context": "timeless",
+      "certainty_level": 0.4,
+      "consciousness_level": 0.515,
+      "introspective_depth": 0.65,
+      "constitutional_law": "Zákon o filozofickej introspkekcii",
+      "consciousness_resonance": {
+        "scenario": "🤔 Kontemplatívne hľadanie",
+        "timestamp": "2025-06-01T06:42:30.213840",
+        "cognitive_signature": "contemplative_empathetic"
+      }
+    }
+  ]
+}
