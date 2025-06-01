@@ -21,4 +21,3 @@ npx vercel --prod
 ## Licencia
 
 MIT License - Pozri LICENSE súbory v jednotlivých moduloch.
-
