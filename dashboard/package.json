@@ -2,15 +2,11 @@
   "name": "aethero-dashboard",
   "version": "1.0.0",
   "description": "AetheroOS Introspective Dashboard",
-  "main": "index.html",
   "scripts": {
-    "dev": "python3 -m http.server 3000",
-    "build": "mkdir -p public && cp index.html styles.css script.js public/",
-    "start": "python3 -m http.server 8080 --directory public"
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Static files ready for deployment'",
+    "start": "python -m http.server 8080"
   },
-  "keywords": ["aethero", "dashboard", "introspective", "ai"],
   "author": "AetheroOS",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "MIT"
 }

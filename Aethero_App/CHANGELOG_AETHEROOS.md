@@ -6,6 +6,7 @@
 - Scaffoldovanie dashboardu (Zerun).
 - Deploy systému cez `npx vercel`.
 - Zjednotenie všetkých modulov do jedného GitHub repozitára.
+- Aktualizácia `.gitignore` na podporu Vercel a ďalších systémových súborov.
 
 ### Poznámka
 Táto verzia je priebežný commit a nie je finálna. Ďalšie iterácie budú nasledovať.
