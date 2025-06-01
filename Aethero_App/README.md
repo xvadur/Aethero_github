@@ -139,8 +139,8 @@ Aethero_App/
 ```
 
 # 🔄 Priebežný stav
-- **Zjednocovanie GitHub repozitára**: Všetky moduly a komponenty sú teraz centralizované v jednom repozitári.
-- **Deploy na Vercel**: Deploy systému prebieha cez `npx vercel`.
+- **Konzistencia medzi GitHub a Hugging Face Space**: Všetky komponenty a dokumentácia sú synchronizované medzi oboma platformami.
+- **Syntaxátor AetheroOS**: Hostovaný cez FastAPI na porte 7860.
 
 # 🚧 Poznámka
 Táto dokumentácia je priebežne dopĺňaná a odráža aktuálny stav vývoja systému.
