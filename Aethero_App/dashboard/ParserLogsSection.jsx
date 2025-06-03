@@ -80,3 +80,5 @@ export default function ParserLogsSection() {
     </section>
   );
 }
+
+// ⬆️ Deployment trigger comment – 2025-06-04
