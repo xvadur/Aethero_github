@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Orchestral Output</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+    h1 { color: #333; }
+    pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Orchestral Output Visualization</h1>
+  <p>This is an embed-ready visualization of the latest orchestral output from AetheroOS.</p>
+  <pre id="output">Loading...</pre>
+  <script>
+    // Example script to load orchestral output dynamically
+    fetch('manifest.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+      });
+  </script>
+</body>
+</html>

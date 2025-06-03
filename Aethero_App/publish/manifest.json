@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "project": "AetheroOS Orchestration",
+  "author": "Frontinus",
+  "outputs": [
+    {
+      "type": "README",
+      "description": "Public-facing documentation."
+    },
+    {
+      "type": "HTML",
+      "description": "Embed-ready visualization."
+    },
+    {
+      "type": "JSON",
+      "description": "Machine-readable metadata."
+    }
+  ]
+}

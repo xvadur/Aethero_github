@@ -148,3 +148,20 @@ Táto dokumentácia je priebežne dopĺňaná a odráža aktuálny stav vývoja 
 ---
 
 **AetheroOS** – *Where consciousness meets code.*
+
+- `GET /crew/introspect` – introspekcia (po implementácii)- `GET /crew/` – zoznam tímov- `POST /crew/{team_id}/add_member` – pridanie člena- `GET /crew/{team_id}` – detail tímu- `POST /crew/create` – vytvorenie tímu## Endpointy- **CI/CD:** `.github/workflows/deploy.yml`- **Docker:** `Dockerfile`, `docker-compose.yml`- **API:** FastAPI router (`crewai/team_api.py`)- **Manažér:** `CrewManager` (`crewai/crew_manager.py`)- **Modely:** `Team`, `TeamMember` (`crewai/models.py`)## Architektúra CrewAi```curl http://localhost:7860/crew/<team_id>```bash### Získanie detailov tímu (curl)```curl -X POST "http://localhost:7860/crew/<team_id>/add_member" -H "Content-Type: application/json" -d '{"name": "Lucius", "role": "Dev"}'```bash### Pridanie člena do tímu (curl)```curl -X POST "http://localhost:7860/crew/create" -H "Content-Type: application/json" -d '{"name": "Alpha Team", "description": "Test", "goal": "AI research"}'```bash### Vytvorenie tímu (curl)## Príklady použitia API```uvicorn crewai.team_api:app --host 0.0.0.0 --port 7860pip install -r requirements.txt# Alebo lokálne (vyžaduje Python 3.10+)sudo docker-compose up --buildcp .env.sample .env# Spustenie cez Docker Composecd Aethero_App# Klonovanie repozitára a prechod do adresára```bash## Inštalácia a spustenie# CrewAi – AetheroOS Modul# CrewAi
+
+CrewAi je modul AetheroOS navrhnutý na správu tímov a introspektívne analýzy. Tento modul je plne dockerizovaný a pripravený na infra-agnostickú deploy stratégiu.
+
+## Funkcie
+- Introspektívne API endpointy
+- Harmonizácia UUID pre tímové dáta
+- Škálovateľná architektúra
+
+## Nasadenie
+1. Skopírujte `env.sample` do `.env` a vyplňte potrebné premenné.
+2. Spustite `docker-compose up` na lokálne testovanie.
+3. Deployujte cez CI/CD pipeline na Vercel alebo DockerHub.
+
+## Dokumentácia
+Swagger dokumentácia je dostupná na `/docs` po spustení aplikácie.

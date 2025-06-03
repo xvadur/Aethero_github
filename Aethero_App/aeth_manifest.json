@@ -1,0 +1,21 @@
+{
+  "manifest_version": "0.1.0-alpha",
+  "project": "Aethero Governance",
+  "author": "Adam Rudavský (xvadur)",
+  "license": "CC-BY-SA + Aethero Supplementum I",
+  "syntax_standard": "ASL v0.4",
+  "deployment_target": ["vercel", "huggingface"],
+  "directories": {
+    "agents": "Definície introspektívnych agentov",
+    "syntax": "Ústava, zákony, master prompty",
+    "api": "REST a WebSocket endpointy",
+    "memory": "Pamäťové jednotky a introspektívne záznamy"
+  },
+  "features": [
+    "UUIDv4 identifikátory",
+    "Plug-and-play deploy",
+    "WebSocket + REST",
+    "Agent orchestration (CrewAI + Superagent)"
+  ],
+  "goal": "Vytvoriť introspektívny operačný systém pre správu vedomia"
+}

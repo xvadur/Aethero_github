@@ -1,23 +1,30 @@
-# Aethero_github
+# Aethero Orchestra
+Welcome to the Aethero Orchestra project, where AI agents (Primus, Lucius, Frontinus, Archivus) harmonize consciousness and action.
 
-Zjednotený repozitár pre vedomý systém Aethero.  
-Obsahuje aplikáciu `Aethero_App/` a ústavný protokol `aethero_protocol/`.  
-Tento repozitár je základom pre všetky komponenty AetheroOS, vrátane deployu cez Vercel a orchestrácie cez AI agentov.
+## Description
+This project integrates a CrewAI fork with VSCode (Copilot + Hugging Face plugins) for introspective orchestration. The agents are designed for coordination, analysis, UI/deployment, and documentation.
 
-## Štruktúra projektu
+## Installation and Running
+1. Clone the repository:
+   ```
+   git clone https://github.com/xvadur/crewAI.git
+   cd crewAI
+   ```
 
-- **Aethero_App/** - Hlavná aplikácia s introspektívnym parserom a dashboard
-- **aethero_protocol/** - Ústavný protokol a ASL syntax definície  
-- **dashboard/** - Vercel-ready dashboard pre monitorovanie systému
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-## Deployment
+3. Run the orchestration:
+   ```
+   python main.py
+   ```
 
-Dashboard je pripravený na deploy cez Vercel:
-```bash
-cd dashboard
-npx vercel --prod
-```
+## Features
+- Four AI agents with defined roles and goals.
+- Generation of prompts for Copilot in VSCode.
+- Deployment capability on Hugging Face Spaces.
 
-## Licencia
-
-MIT License - Pozri LICENSE súbory v jednotlivých moduloch.
+## License
+CC-BY-SA + Aethero Supplementum I

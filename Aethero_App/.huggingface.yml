@@ -1,0 +1,43 @@
+sdk: docker
+app_file: syntaxator_fastapi.py
+sdk_version: "4.36.2"
+title: Aethero Cognitive Flow API
+emoji: 🧠
+colorFrom: blue
+colorTo: purple
+short_description: Advanced cognitive parsing and introspective analysis system
+description: |
+  Aethero Cognitive Flow is an advanced AI system that provides cognitive parsing, 
+  introspective analysis, and reflection capabilities through a FastAPI interface.
+  
+  Features:
+  - ASL (Aethero Semantic Language) parsing
+  - Cognitive metrics analysis
+  - Introspective reflection
+  - Real-time WebSocket logging
+  
+  The system is designed for transparency, constitutional compliance, and 
+  cognitive flow optimization.
+
+tags:
+- fastapi
+- cognitive-ai
+- introspection
+- parsing
+- reflection
+- websockets
+
+suggested_hardware: cpu-basic
+suggested_storage: small
+
+# Environment variables
+env:
+  PYTHONPATH: /app
+  PYTHONUNBUFFERED: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
+
+# Docker configuration
+dockerfile: Dockerfile
+
+# Port configuration (Hugging Face Spaces uses 7860 by default)
+port: 7860

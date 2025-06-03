@@ -1,0 +1,24 @@
+# Aethero Modern Tech Demo
+
+## Docker-ready Aethero Dashboard
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy Aethero components
+COPY aethero_audit.py .
+COPY aethero_dashboard.py .
+COPY aethero_complete_pipeline.py .
+
+# Create entrypoint
+COPY docker-entrypoint.sh .
+RUN chmod +x docker-entrypoint.sh
+
+EXPOSE 8000
+
+CMD ["./docker-entrypoint.sh"]

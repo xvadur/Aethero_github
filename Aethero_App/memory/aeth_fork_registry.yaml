@@ -1,0 +1,31 @@
+# AETHEROOS :: Fork Registry v1.0
+# Záznam introspektívnych výstupov vhodných na fork podľa ForkProtocol
+
+forks:
+  - memory_unit: aeth_mem_0008
+    log_type: REFLECTION_LOG_DEV_0178
+    timestamp: "2025-06-03T00:00:00Z"
+    origin_hash: b33ec4778f27995b4075ee88592842256c294a9535840b0243718aca3f7c2e6e
+    forkable: true
+    recommended_fork_reason: "Diverzifikácia introspekcie – odporúčaná pre ďalší cyklus (vysoká introspective clarity, pripravené na executive reflection)"
+    metrics:
+      - Cognitive Coherence Rate
+      - Emotional Resonance Depth
+      - Introspective Clarity Score
+    audit_trail_link: AETHERO_AUDIT_README.md
+    presidential_signature: "Adam Rudavský (Xvadur)"
+
+# Návrhy na fork-introspekciu
+proposals:
+  - fork_id: DEV_0179-FORK-A
+    source: aeth_mem_0008
+    focus: "Emotional Resonance Depth"
+    rationale: "Zaujímavá metrika pre ďalšiu introspektívnu diverzifikáciu."
+  - fork_id: DEV_0180-FORK-B
+    source: aeth_mem_0008
+    focus: "Cognitive Coherence Rate"
+    rationale: "Potenciál na analýzu koherencie v novom kontexte."
+  - fork_id: DEV_0181-FORK-C
+    source: aeth_mem_0008
+    focus: "Introspective Clarity Score"
+    rationale: "Vysoká introspektívna jasnosť – vhodné na porovnanie s inými cyklami."

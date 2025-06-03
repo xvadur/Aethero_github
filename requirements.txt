@@ -1,0 +1,6 @@
+crewai
+openai
+huggingface_hub
+langchain
+python-dotenv
+gradio

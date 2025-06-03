@@ -1,0 +1,115 @@
+{
+  "audit_metadata": {
+    "session_id": "20250602_021927",
+    "generated_at": "2025-06-02T02:19:28.005250",
+    "git_repo": "/Users/_xvadur/Desktop/Aethero_github",
+    "aetheron_definition": {
+      "base_unit": "1 Aetheron = 1 hodina efektívneho vývoja",
+      "measurement_factors": {
+        "git_commits": 0.3,
+        "shell_commands": 0.2,
+        "cognitive_coherence": 0.3,
+        "time_efficiency": 0.2
+      },
+      "slovak_context": "Meranie produktivity slovenského zdravotníckeho pracovníka"
+    },
+    "total_sessions": 2,
+    "total_aetheron_units": 5,
+    "total_aetherony_generated": 12.606980897900309
+  },
+  "development_sessions": [
+    {
+      "start_time": "2025-06-01T00:44:52",
+      "end_time": "2025-06-01T04:48:54",
+      "duration_hours": 4.067222222222222,
+      "total_aetherony": 17.582,
+      "commits_count": 0,
+      "commands_count": 52,
+      "cognitive_coherence": 0.5153846153846153,
+      "productivity_rating": "vysoká"
+    },
+    {
+      "start_time": "2025-06-01T08:22:07",
+      "end_time": "2025-06-01T10:59:31",
+      "duration_hours": 2.6233333333333335,
+      "total_aetherony": 9.5,
+      "commits_count": 19,
+      "commands_count": 0,
+      "cognitive_coherence": 0.5684210526315789,
+      "productivity_rating": "vysoká"
+    }
+  ],
+  "aetheron_units": [
+    {
+      "timestamp": "2025-06-01 00:44:52",
+      "aetheron_value": 3.4900473372781065,
+      "git_commit_count": 0,
+      "shell_commands_count": 22,
+      "cognitive_load_estimate": 5.876923076923077,
+      "development_rhythm_score": 1.0,
+      "efficiency_multiplier": 0.5153846153846153,
+      "context_tags": []
+    },
+    {
+      "timestamp": "2025-06-01 02:44:52",
+      "aetheron_value": 3.944662721893491,
+      "git_commit_count": 0,
+      "shell_commands_count": 25,
+      "cognitive_load_estimate": 5.876923076923077,
+      "development_rhythm_score": 1.0,
+      "efficiency_multiplier": 0.5153846153846153,
+      "context_tags": [
+        "testing"
+      ]
+    },
+    {
+      "timestamp": "2025-06-01 03:44:52",
+      "aetheron_value": 0.4653988165680474,
+      "git_commit_count": 0,
+      "shell_commands_count": 3,
+      "cognitive_load_estimate": 5.876923076923077,
+      "development_rhythm_score": 0.3,
+      "efficiency_multiplier": 0.1546153846153846,
+      "context_tags": []
+    },
+    {
+      "timestamp": "2025-06-01 08:22:07",
+      "aetheron_value": 3.0944975069252076,
+      "git_commit_count": 7,
+      "shell_commands_count": 0,
+      "cognitive_load_estimate": 5.4526315789473685,
+      "development_rhythm_score": 0.7,
+      "efficiency_multiplier": 0.39789473684210525,
+      "context_tags": [
+        "debugging"
+      ]
+    },
+    {
+      "timestamp": "2025-06-01 09:22:07",
+      "aetheron_value": 1.6123745152354572,
+      "git_commit_count": 4,
+      "shell_commands_count": 0,
+      "cognitive_load_estimate": 5.4526315789473685,
+      "development_rhythm_score": 0.4,
+      "efficiency_multiplier": 0.22736842105263158,
+      "context_tags": [
+        "debugging"
+      ]
+    }
+  ],
+  "summary_statistics": {
+    "total_aetherony_generated": 12.61,
+    "average_aetherony_per_hour": 2.52,
+    "average_cognitive_load": 5.71,
+    "average_rhythm_score": 0.68,
+    "most_productive_day": "2025-06-01",
+    "productivity_by_day": {
+      "2025-06-01": 12.606980897900309
+    },
+    "top_development_patterns": {
+      "debugging": 2,
+      "testing": 1
+    },
+    "development_efficiency_rating": "Výnimočná - Slovak Healthcare Dev Ninja 🚀"
+  }
+}
