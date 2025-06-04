@@ -28,3 +28,22 @@ This project integrates a CrewAI fork with VSCode (Copilot + Hugging Face plugin
 
 ## License
 CC-BY-SA + Aethero Supplementum I
+
+---
+title: Aethero Orchestra UI
+emoji: "🧠"
+colorFrom: indigo
+colorTo: blue
+sdk: gradio
+sdk_version: "4.25.0"
+app_file: Aethero_App/gradio_interface.py
+pinned: false
+---
+
+# Aethero Orchestra UI
+
+Toto je produkčný Gradio interface pre orchestráciu AetheroOS agentov.
+
+- Spúšťa orchestráciu priamo cez Python (bez FastAPI/HTTP requestov)
+- Výstup sa loguje do memory/orchestration_logs/
+- Kompatibilné s Hugging Face Spaces

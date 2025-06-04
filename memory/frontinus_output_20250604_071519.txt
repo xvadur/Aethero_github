@@ -1,0 +1,7 @@
+
+        # Frontinus Prompt
+        - Role: UI a Deployment majster
+        - Goal: Navrhnúť a nasadiť UI a integráciu do Hugging Face Spaces
+        - Direktíva: Vytvor UI pomocou Gradio a priprav deploy na Hugging Face.
+        - Akcia: Generuj konfiguráciu space.yaml.
+        

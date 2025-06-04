@@ -1,0 +1,154 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.1, pytest-7.3.1, pluggy-1.6.0
+rootdir: /Users/_xvadur/Desktop/Aethero_github
+plugins: asyncio-0.21.0, anyio-4.9.0, mock-3.14.1, cov-6.1.1
+asyncio: mode=Mode.STRICT
+sys.path during pytest execution: ['/Users/_xvadur/Desktop/Aethero_github/Aethero_App/introspective_parser_module', '/Users/_xvadur/Desktop/Aethero_github/Aethero_App/src', '/Users/_xvadur/Desktop/Aethero_github', '/Library/Frameworks/Python.framework/Versions/3.13/bin', '/Library/Frameworks/Python.framework/Versions/3.13/lib/python313.zip', '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13', '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload', '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages']
+collected 140 items / 4 errors
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting Aethero_App/test_api.py ___________________
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/python.py:617: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/pathlib.py:564: in import_path
+    importlib.import_module(module_name)
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:172: in exec_module
+    exec(co, module.__dict__)
+Aethero_App/test_api.py:10: in <module>
+    from syntaxator_fastapi import app
+Aethero_App/syntaxator_fastapi.py:5: in <module>
+    from introspective_parser_module.parser import ASLMetaParser
+Aethero_App/introspective_parser_module/__init__.py:27: in <module>
+    from .metrics import (
+E     File "/Users/_xvadur/Desktop/Aethero_github/Aethero_App/introspective_parser_module/metrics.py", line 46
+E       class AetheroCognitiveAnalyzer:
+E       ^^^^^
+E   IndentationError: expected an indented block after class definition on line 45
+________ ERROR collecting Aethero_App/crewai/tests/test_crew_manager.py ________
+ImportError while importing test module '/Users/_xvadur/Desktop/Aethero_github/Aethero_App/crewai/tests/test_crew_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+Aethero_App/crewai/tests/test_crew_manager.py:4: in <module>
+    from ..crew_manager import CrewManager
+E   ImportError: attempted relative import with no known parent package
+__________ ERROR collecting Aethero_App/crewai/tests/test_team_api.py __________
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/python.py:617: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/pathlib.py:564: in import_path
+    importlib.import_module(module_name)
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:172: in exec_module
+    exec(co, module.__dict__)
+Aethero_App/crewai/tests/test_team_api.py:4: in <module>
+    from Aethero_App.syntaxator_fastapi import app
+Aethero_App/syntaxator_fastapi.py:6: in <module>
+    from introspective_parser_module.metrics import CognitiveMetricsAnalyzer
+Aethero_App/introspective_parser_module/__init__.py:27: in <module>
+    from .metrics import (
+E     File "/Users/_xvadur/Desktop/Aethero_github/Aethero_App/introspective_parser_module/metrics.py", line 46
+E       class AetheroCognitiveAnalyzer:
+E       ^^^^^
+E   IndentationError: expected an indented block after class definition on line 45
+______ ERROR collecting Aethero_App/tests/test_langgraph_visualization.py ______
+ImportError while importing test module '/Users/_xvadur/Desktop/Aethero_github/Aethero_App/tests/test_langgraph_visualization.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+Aethero_App/tests/test_langgraph_visualization.py:5: in <module>
+    from aetheros_protocol.visualization.langgraph_config import AetheroGraphVisualizer, AgentState
+E   ModuleNotFoundError: No module named 'aetheros_protocol'
+=============================== warnings summary ===============================
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:683: 13 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:683: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    and isinstance(item.value, ast.Str)
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/formparsers.py:10
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/formparsers.py:10: PendingDeprecationWarning: Please use `import python_multipart` instead.
+    import multipart
+
+Aethero_App/minimal_test.py:18
+  /Users/_xvadur/Desktop/Aethero_github/Aethero_App/minimal_test.py:18: PytestCollectionWarning: cannot collect test class 'TestModel' because it has a __init__ constructor (from: Aethero_App/minimal_test.py)
+    class TestModel(BaseModel):
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:965: 238 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:965: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    inlocs = ast.Compare(ast.Str(name.id), [ast.In()], [locs])
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:968: 238 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:968: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expr = ast.IfExp(test, self.display(name), ast.Str(name.id))
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:1102: 222 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:1102: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    syms.append(ast.Str(sym))
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:1104: 222 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:1104: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expls.append(ast.Str(expl))
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:817: 914 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:817: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    keys = [ast.Str(key) for key in current.keys()]
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:927: 237 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:927: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    assertmsg = ast.Str("")
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:929: 257 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:929: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    template = ast.BinOp(assertmsg, ast.Add(), ast.Str(explanation))
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:941: 257 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:941: DeprecationWarning: ast.NameConstant is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    clear = ast.Assign(variables, ast.NameConstant(None))
+
+../../../../Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:685: 11 warnings
+  /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py:685: DeprecationWarning: Attribute s is deprecated and will be removed in Python 3.14; use value instead
+    doc = item.value.s
+
+Aethero_App/test_app.py:15
+  /Users/_xvadur/Desktop/Aethero_github/Aethero_App/test_app.py:15: PytestCollectionWarning: cannot collect test class 'TestInput' because it has a __init__ constructor (from: Aethero_App/test_app.py)
+    class TestInput(BaseModel):
+
+Aethero_App/test_app.py:18
+  /Users/_xvadur/Desktop/Aethero_github/Aethero_App/test_app.py:18: PytestCollectionWarning: cannot collect test class 'TestOutput' because it has a __init__ constructor (from: Aethero_App/test_app.py)
+    class TestOutput(BaseModel):
+
+Aethero_App/tests/test_agent_ops.py:6
+  /Users/_xvadur/Desktop/Aethero_github/Aethero_App/tests/test_agent_ops.py:6: PytestCollectionWarning: cannot collect test class 'TestAgentOrchestrator' because it has a __init__ constructor (from: Aethero_App/tests/test_agent_ops.py)
+    class TestAgentOrchestrator:
+
+Aethero_App/tests/test_integration.py:16
+  /Users/_xvadur/Desktop/Aethero_github/Aethero_App/tests/test_integration.py:16: PytestCollectionWarning: cannot collect test class 'TestAgent' because it has a __init__ constructor (from: Aethero_App/tests/test_integration.py)
+    class TestAgent(BaseAetheroAgent):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR Aethero_App/test_api.py
+ERROR Aethero_App/crewai/tests/test_crew_manager.py
+ERROR Aethero_App/crewai/tests/test_team_api.py
+ERROR Aethero_App/tests/test_langgraph_visualization.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 4 errors during collection !!!!!!!!!!!!!!!!!!!!
+====================== 2615 warnings, 4 errors in 11.53s =======================

@@ -1,19 +1,26 @@
-# AETH-TASK-002 :: ROLE: Archivus :: GOAL: Introspective Reflection Agent
-# reflection_agent.py
-# FastAPI-based Introspective Reflection Agent for AetheroOS
-# Implements emotion analysis using Hugging Face Transformers
+"""
+reflection_agent.py
+FastAPI-based Introspective Reflection Agent for AetheroOS
+Implements emotion analysis using Hugging Face Transformers with graceful fallback
+"""
+
+print("🔍 Starting reflection_agent module import...")
 
 from fastapi import APIRouter, HTTPException
+print("✅ FastAPI imports successful")
+
 from pydantic import BaseModel
+print("✅ Pydantic imports successful")
+
 from typing import List, Dict, Any
 import logging
 from datetime import datetime
 
+print("✅ Standard library imports successful")
+
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-print("🔍 Starting reflection_agent module import...")
 
 # Graceful import for transformers
 TRANSFORMERS_AVAILABLE = False
@@ -25,7 +32,7 @@ try:
     logger.info("✅ Transformers available")
     
     try:
-        # Load emotion classifier
+        # Load emotion classifier (this might take time on first run)
         emotion_classifier = pipeline(
             "text-classification", 
             model="bhadresh-savani/distilbert-base-uncased-emotion"
@@ -38,11 +45,9 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Transformers not available: {e}")
     TRANSFORMERS_AVAILABLE = False
-    emotion_classifier = None
 
 # Create FastAPI router
 router = APIRouter(prefix="/reflection", tags=["reflection"])
-print("✅ Router created successfully")
 
 # Pydantic models
 class ReflectionInput(BaseModel):
@@ -61,12 +66,6 @@ class ReflectionOutput(BaseModel):
     confidence: float
     analysis_timestamp: str
     introspective_insights: Dict[str, Any]
-
-class IntrospectiveAnalysis(BaseModel):
-    cognitive_load: int
-    emotional_complexity: float
-    temporal_focus: str
-    constitutional_alignment: float
 
 # Fallback emotion analysis for when transformers is not available
 def fallback_emotion_analysis(text: str) -> List[Dict[str, Any]]:
@@ -221,7 +220,6 @@ __all__ = [
     'ReflectionInput', 
     'ReflectionOutput',
     'EmotionResult',
-    'IntrospectiveAnalysis',
     'fallback_emotion_analysis',
     'generate_introspective_insights'
 ]

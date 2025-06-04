@@ -1,0 +1,10 @@
+{
+  "date": "2025-06-04",
+  "status": "NEFUNKČNÉ",
+  "issues": [
+    "V projekte nie je žiadny gradio UI súbor, ktorý by volal HTTP endpoint http://localhost:8000/run-orchestra.",
+    "V gradio_interface.py sa orchestrácia nespúšťa cez HTTP, ale priamo cez funkciu analyze_text_with_visuals().",
+    "V Hugging Face Spaces nie je možné volať localhost:8000, ak tam nebeží FastAPI server v tom istom procese."
+  ],
+  "recommendation": "Pre Gradio-only režim odporúčam: 1) Volať orchestráciu priamo ako Python funkciu (napr. importovať run_orchestration z aethero_monumentum_ignis.py a volať ju priamo v Gradio callbacke), 2) Logovať výstupy orchestrace do memory/ podľa vzoru aethero_monumentum_ignis.py, 3) Nepoužívať HTTP requests.post() na localhost v Hugging Face Spaces, ak FastAPI nie je spustené."
+}
