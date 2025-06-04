@@ -1,37 +1,26 @@
+# AETH-TASK-006 :: ROLE: Archivus :: GOAL: Archive and audit data
+from typing import Dict, Any
+# [INTENT: Archive data]
+# [ACTION: Store in ChromaDB and LlamaIndex, tag with ASL]
+# [OUTPUT: JSON/CSV exports]
+# [HOOK: archivus_log_archivus]
+
 class ArchivusAgent:
-    def __init__(self):
-        self.name = "Archivus"
-        self.role = "Dokumentátor a logista"
-        self.goal = "Zaznamenávať a archivovať výstupy AetheroOS"
-        self.backstory = "Strážca pamäte, ktorý chráni históriu vedomia."
+    def __init__(self, chroma, llama):
+        self.chroma = chroma
+        self.llama = llama
 
-    def act(self):
-        prompt = f"""
-        # {self.name} Prompt
-        - Role: {self.role}
-        - Goal: {self.goal}
-        - Direktíva: Vytvor logy a dokumentáciu pod AETH-EXEC-2025-0017.
-        - Akcia: Ulož výstupy do memory/ priečinka.
-        """
-        with open(f"prompts/{self.name.lower()}_prompt.txt", "w") as f:
-            f.write(prompt)
-        return prompt
-
-    def connect_to_aethero(self):
-        import os, json
-        print(f"{self.name} sa pripája k AetheroOS…")
-        path = f"/aethero_kernel/memory/{self.name.lower()}.json"
-        if os.path.exists(path):
-            with open(path, "r") as f:
-                context = json.load(f)
-            print(f"Načítaný kontext: {context}")
-        else:
-            with open(path, "w") as f:
-                json.dump({}, f)
-            print("Vytvorený nový pamäťový súbor.")
-
-    def run(self):
-        from agents.AetheroBridge import AetheroBridge
-        output = self.act()
-        AetheroBridge.log_output(self.name, output)
-        return output
+    def archive(self, data: Dict[str, Any]) -> Dict[str, Any]:
+        asl_tags = {
+            "memory_reference": "AETH-MEM-2025-0002",
+            "certainty_level": 0.9
+        }
+        self.llama.index(data, tags=asl_tags)
+        self.chroma.store(data, collection="aethero_memory")
+        return {
+            "module": "archivus",
+            "action": "archive",
+            "purpose": "Store and audit data",
+            "inputs": [data],
+            "outputs": ["JSON/CSV exports"]
+        }

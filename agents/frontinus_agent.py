@@ -1,37 +1,26 @@
+# AETH-TASK-005 :: ROLE: Frontinus :: GOAL: Visualize and create UX dashboards
+from typing import Dict, Any
+# [INTENT: Visualize data]
+# [ACTION: Create Gradio dashboard, tag with ASL]
+# [OUTPUT: Dashboard artifact]
+# [HOOK: archivus_log_frontinus]
+
 class FrontinusAgent:
-    def __init__(self):
-        self.name = "Frontinus"
-        self.role = "UI a Deployment majster"
-        self.goal = "Navrhnúť a nasadiť UI a integráciu do Hugging Face Spaces"
-        self.backstory = "Architekt éterických brán, staviteľ digitálnych chrámov."
+    def __init__(self, flowise, gradio_interface):
+        self.flowise = flowise
+        self.interface = gradio_interface
 
-    def act(self):
-        prompt = f"""
-        # {self.name} Prompt
-        - Role: {self.role}
-        - Goal: {self.goal}
-        - Direktíva: Vytvor UI pomocou Gradio a priprav deploy na Hugging Face.
-        - Akcia: Generuj konfiguráciu space.yaml.
-        """
-        with open(f"prompts/{self.name.lower()}_prompt.txt", "w") as f:
-            f.write(prompt)
-        return prompt
-
-    def connect_to_aethero(self):
-        import os, json
-        print(f"{self.name} sa pripája k AetheroOS…")
-        path = f"/aethero_kernel/memory/{self.name.lower()}.json"
-        if os.path.exists(path):
-            with open(path, "r") as f:
-                context = json.load(f)
-            print(f"Načítaný kontext: {context}")
-        else:
-            with open(path, "w") as f:
-                json.dump({}, f)
-            print("Vytvorený nový pamäťový súbor.")
-
-    def run(self):
-        from agents.AetheroBridge import AetheroBridge
-        output = self.act()
-        AetheroBridge.log_output(self.name, output)
-        return output
+    def visualize(self, data: Dict[str, Any]) -> Dict[str, Any]:
+        asl_tags = {
+            "intent_vector": 0.7,
+            "temporal_context": 2
+        }
+        dashboard = self.flowise.create_dashboard(data, tags=asl_tags)
+        self.interface.render(dashboard)
+        return {
+            "module": "frontinus",
+            "action": "visualize",
+            "purpose": "Create UX dashboards",
+            "inputs": [data],
+            "outputs": [dashboard]
+        }
