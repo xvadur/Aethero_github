@@ -56,3 +56,12 @@ Toto je produkčný Gradio interface pre orchestráciu AetheroOS agentov.
 
 - Aktuálny protokol: [AETHERO DEPLOY PROTOCOL v1.0](docs/protocols/aeth_deploy_protocol_v1.md)
 - Modulové šablóny: [deployment_protocol.md](deployment_protocol.md)
+
+---
+
+> **Poznámka (2025-06-06):**
+> Tento commit uzatvára fázu migrácie do Forgejo a zavádza štandardizovaný repozitárový rámec AetheroOS.
+> Po stiahnutí repozitára spusti:
+> 
+>     pip install -r requirements.txt
+>     python archivia_audit.py --save-baseline
