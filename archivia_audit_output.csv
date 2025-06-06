@@ -1,0 +1,91 @@
+name,path,type,last_activity,reason,action
+Dockerfile.modern,Dockerfile.modern,file,2025-06-04T06:10:41.786088,Active in last 90 days,keep
+memory_ingest.py,memory_ingest.py,file,2025-06-06T00:58:14.908043,Active in last 90 days,keep
+aethero_protocol,aethero_protocol,dir,2025-06-04T06:10:41.789088,Aethero project keyword,keep
+aethero_audit_20250605_191336.json,aethero_audit_20250605_191336.json,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+Aethero_Orchestra,Aethero_Orchestra,dir,2025-06-04T06:10:41.786088,Aethero project keyword,keep
+Aethero_App,Aethero_App,dir,2025-06-06T00:58:14.335043,Aethero project keyword,keep
+aethero_audit_units_20250605_185811.csv,aethero_audit_units_20250605_185811.csv,file,2025-06-06T00:58:14.348043,Aethero project keyword,keep
+aethero_audit_units_20250605_225714.csv,aethero_audit_units_20250605_225714.csv,file,2025-06-06T00:58:14.351043,Aethero project keyword,keep
+ultra_prompt.os,ultra_prompt.os,file,2025-06-06T00:58:14.913043,Active in last 90 days,keep
+aethero_complete_report_20250602_022027.txt,aethero_complete_report_20250602_022027.txt,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+memory_viewer.py,memory_viewer.py,file,2025-06-04T06:10:41.790088,Active in last 90 days,keep
+autofix_engine.py,autofix_engine.py,file,2025-06-06T00:58:14.903043,Active in last 90 days,keep
+aethero_dashboard.py,aethero_dashboard.py,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+final_prompt.txt,final_prompt.txt,file,2025-06-04T08:34:17.330622,Active in last 90 days,keep
+aethero_audit_units_20250602_021854.csv,aethero_audit_units_20250602_021854.csv,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+memory,memory,dir,2025-06-04T08:34:17.342622,Active in last 90 days,keep
+session_log.txt,session_log.txt,file,2025-06-06T00:58:14.912043,Active in last 90 days,keep
+.vscode,.vscode,dir,2025-06-04T06:10:41.777088,Active in last 90 days,keep
+unittest_report.txt,unittest_report.txt,file,2025-06-06T00:58:14.914043,Aethero project keyword,keep
+.vercel,.vercel,dir,2025-06-04T08:46:09.339598,Active in last 90 days,keep
+.gitmodules,.gitmodules,file,2025-06-04T06:10:41.777088,Active in last 90 days,keep
+aethero_audit_units_20250605_185153.csv,aethero_audit_units_20250605_185153.csv,file,2025-06-06T00:58:14.348043,Aethero project keyword,keep
+aethero_audit_units_20250605_191336.csv,aethero_audit_units_20250605_191336.csv,file,2025-06-06T00:58:14.351043,Aethero project keyword,keep
+aethero_master_orchestrator.py,aethero_master_orchestrator.py,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+aethero_audit_20250605_184337.json,aethero_audit_20250605_184337.json,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+outputs,outputs,dir,2025-06-06T00:58:14.910043,Active in last 90 days,keep
+.github,.github,dir,2025-06-06T00:58:14.324043,Active in last 90 days,keep
+emergency_deploy.sh,emergency_deploy.sh,file,2025-06-06T00:58:14.906043,Active in last 90 days,keep
+prompts,prompts,dir,2025-06-04T06:22:21.001082,Active in last 90 days,keep
+unittest_full_report.txt,unittest_full_report.txt,file,2025-06-06T00:58:14.913043,Aethero project keyword,keep
+dashboard,dashboard,dir,2025-06-06T00:58:14.904043,Aethero project keyword,keep
+aethero_audit_20250605_225714.json,aethero_audit_20250605_225714.json,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+aethero_audit_20250605_185811.json,aethero_audit_20250605_185811.json,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+deployment_protocol.md,deployment_protocol.md,file,2025-06-06T00:58:14.904043,Active in last 90 days,keep
+aethero_metrics_integration.py,aethero_metrics_integration.py,file,2025-06-04T06:10:41.788088,Aethero project keyword,keep
+AETHERO_AUDIT_README.md,AETHERO_AUDIT_README.md,file,2025-06-04T06:10:41.777088,Aethero project keyword,keep
+FINAL_STATUS_REPORT.md,FINAL_STATUS_REPORT.md,file,2025-06-04T06:10:41.786088,Aethero project keyword,keep
+deploy_dashboard.sh,deploy_dashboard.sh,file,2025-06-04T06:10:41.790088,Aethero project keyword,keep
+aethero_dashboard_20250602_022027.html,aethero_dashboard_20250602_022027.html,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+aethero_complete_report_20250602_021929.txt,aethero_complete_report_20250602_021929.txt,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+api,api,dir,2025-06-04T06:10:41.789088,Active in last 90 days,keep
+aethero_audit_20250602_021927.json,aethero_audit_20250602_021927.json,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+aethero_audit_cron.txt,aethero_audit_cron.txt,file,2025-06-06T00:58:14.348043,Aethero project keyword,keep
+.git,.git,dir,2025-06-06T01:12:52.960014,Active in last 90 days,keep
+vercel.json,vercel.json,file,2025-06-06T00:58:14.914043,Active in last 90 days,keep
+archivia_audit.py,archivia_audit.py,file,2025-06-06T00:58:14.903043,Active in last 90 days,keep
+TECHNOLOGY_SCOUTING_REPORT.md,TECHNOLOGY_SCOUTING_REPORT.md,file,2025-06-04T06:10:41.786088,Aethero project keyword,keep
+.coverage,.coverage,file,2025-06-04T06:10:41.777088,Active in last 90 days,keep
+aethero_nextjs,aethero_nextjs,dir,2025-06-06T00:58:14.807043,Aethero project keyword,keep
+aethero_monumentum_ignis.py,aethero_monumentum_ignis.py,file,2025-06-04T06:10:41.788088,Aethero project keyword,keep
+aethero_audit_units_20250602_022026.csv,aethero_audit_units_20250602_022026.csv,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+node_modules,node_modules,dir,2025-06-05T20:21:36.638656,Active in last 90 days,keep
+aethero_audit_units_20250605_184337.csv,aethero_audit_units_20250605_184337.csv,file,2025-06-06T00:58:14.348043,Aethero project keyword,keep
+scripts,scripts,dir,2025-06-06T00:58:14.911043,Active in last 90 days,keep
+docker-entrypoint.sh,docker-entrypoint.sh,file,2025-06-04T06:10:41.790088,Active in last 90 days,keep
+main.py,main.py,file,2025-06-04T06:10:41.790088,Active in last 90 days,keep
+AETHERO_WORK_DOCUMENTATION.md,AETHERO_WORK_DOCUMENTATION.md,file,2025-06-04T06:10:41.777088,Aethero project keyword,keep
+git_push.sh,git_push.sh,file,2025-06-04T06:10:41.790088,Active in last 90 days,keep
+logs,logs,dir,2025-06-05T19:58:17.167703,Active in last 90 days,keep
+interact_with_orchestra.py,interact_with_orchestra.py,file,2025-06-04T06:10:41.790088,Aethero project keyword,keep
+CHANGELOG.md,CHANGELOG.md,file,2025-06-06T01:18:03.520003,Active in last 90 days,keep
+dry_deploy_report.md,dry_deploy_report.md,file,2025-06-04T08:34:17.330622,Aethero project keyword,keep
+aethero_audit_units_20250602_021927.csv,aethero_audit_units_20250602_021927.csv,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+package.json,package.json,file,2025-06-06T00:58:14.911043,Active in last 90 days,keep
+aethero_complete_pipeline.py,aethero_complete_pipeline.py,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+.gitignore,.gitignore,file,2025-06-04T06:10:41.777088,Active in last 90 days,keep
+aethero_audit_units_20250605_191415.csv,aethero_audit_units_20250605_191415.csv,file,2025-06-06T00:58:14.351043,Aethero project keyword,keep
+aethero_audit_20250602_021854.json,aethero_audit_20250602_021854.json,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+test_report.txt,test_report.txt,file,2025-06-04T08:34:17.330622,Aethero project keyword,keep
+archivia_baseline.json,archivia_baseline.json,file,2025-06-06T00:58:14.903043,Active in last 90 days,keep
+aethero_audit.py,aethero_audit.py,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+aethero_audit_units_20250605_183756.csv,aethero_audit_units_20250605_183756.csv,file,2025-06-06T00:58:14.348043,Aethero project keyword,keep
+aethero_audit_20250605_191415.json,aethero_audit_20250605_191415.json,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+aeth_mem_reports,aeth_mem_reports,dir,2025-06-04T08:34:17.329622,Aethero project keyword,keep
+FINAL_SESSION_REPORT_20250606.md,FINAL_SESSION_REPORT_20250606.md,file,2025-06-06T01:03:06.277034,Aethero project keyword,keep
+copilot,copilot,dir,2025-06-06T00:58:14.903043,Active in last 90 days,keep
+docs,docs,dir,2025-06-06T00:58:14.905043,Active in last 90 days,keep
+package-lock.json,package-lock.json,file,2025-06-06T00:58:14.911043,Active in last 90 days,keep
+aethero_audit_20250605_183756.json,aethero_audit_20250605_183756.json,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+README.md,README.md,file,2025-06-06T00:58:14.336043,Active in last 90 days,keep
+aethero_web,aethero_web,dir,2025-06-06T01:00:08.796040,Aethero project keyword,keep
+aethero_audit_20250602_022026.json,aethero_audit_20250602_022026.json,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+requirements.txt,requirements.txt,file,2025-06-04T06:10:41.790088,Active in last 90 days,keep
+agents,agents,dir,2025-06-06T00:58:14.903043,Active in last 90 days,keep
+aethero_audit_20250605_185153.json,aethero_audit_20250605_185153.json,file,2025-06-06T00:58:14.336043,Aethero project keyword,keep
+aethero_dashboard_20250602_021929.html,aethero_dashboard_20250602_021929.html,file,2025-06-04T06:10:41.787088,Aethero project keyword,keep
+Dockerfile,Dockerfile,file,2025-06-04T06:10:41.786088,Active in last 90 days,keep
+aethero_asl_generator.py,aethero_asl_generator.py,file,2025-06-04T06:10:41.786088,Aethero project keyword,keep
+AGENT_SHUTDOWN_REPORT_20250604.md,AGENT_SHUTDOWN_REPORT_20250604.md,file,2025-06-04T08:34:17.328622,Aethero project keyword,keep
+crew_manager_unittest.txt,crew_manager_unittest.txt,file,2025-06-06T00:58:14.903043,Active in last 90 days,keep

@@ -1,0 +1,12 @@
+{
+  "note": "Baseline snapshot generated 2025-06-06. Use for future restore/diff.",
+  "generated_at": "2025-06-06T03:12:00Z",
+  "root": ".",
+  "files": [
+    // ... (for brevity, only a sample, real script would enumerate all files/folders)
+    {"path": "README.md", "size": 1234, "mtime": "2025-06-06T02:59:00Z"},
+    {"path": "requirements.txt", "size": 456, "mtime": "2025-06-06T02:59:00Z"},
+    {"path": "archivia_audit.py", "size": 2345, "mtime": "2025-06-06T02:59:00Z"}
+    // ...
+  ]
+}

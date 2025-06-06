@@ -1,0 +1,640 @@
+{
+  "keep": [
+    {
+      "name": "Dockerfile.modern",
+      "path": "Dockerfile.modern",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.786088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "memory_ingest.py",
+      "path": "memory_ingest.py",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.908043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_protocol",
+      "path": "aethero_protocol",
+      "type": "dir",
+      "last_activity": "2025-06-04T06:10:41.789088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_20250605_191336.json",
+      "path": "aethero_audit_20250605_191336.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "Aethero_Orchestra",
+      "path": "Aethero_Orchestra",
+      "type": "dir",
+      "last_activity": "2025-06-04T06:10:41.786088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "Aethero_App",
+      "path": "Aethero_App",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.335043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_units_20250605_185811.csv",
+      "path": "aethero_audit_units_20250605_185811.csv",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.348043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_units_20250605_225714.csv",
+      "path": "aethero_audit_units_20250605_225714.csv",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.351043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "ultra_prompt.os",
+      "path": "ultra_prompt.os",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.913043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_complete_report_20250602_022027.txt",
+      "path": "aethero_complete_report_20250602_022027.txt",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "memory_viewer.py",
+      "path": "memory_viewer.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.790088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "autofix_engine.py",
+      "path": "autofix_engine.py",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.903043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_dashboard.py",
+      "path": "aethero_dashboard.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "final_prompt.txt",
+      "path": "final_prompt.txt",
+      "type": "file",
+      "last_activity": "2025-06-04T08:34:17.330622",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit_units_20250602_021854.csv",
+      "path": "aethero_audit_units_20250602_021854.csv",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "memory",
+      "path": "memory",
+      "type": "dir",
+      "last_activity": "2025-06-04T08:34:17.342622",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "session_log.txt",
+      "path": "session_log.txt",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.912043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": ".vscode",
+      "path": ".vscode",
+      "type": "dir",
+      "last_activity": "2025-06-04T06:10:41.777088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "unittest_report.txt",
+      "path": "unittest_report.txt",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.914043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": ".vercel",
+      "path": ".vercel",
+      "type": "dir",
+      "last_activity": "2025-06-04T08:46:09.339598",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": ".gitmodules",
+      "path": ".gitmodules",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.777088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit_units_20250605_185153.csv",
+      "path": "aethero_audit_units_20250605_185153.csv",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.348043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_units_20250605_191336.csv",
+      "path": "aethero_audit_units_20250605_191336.csv",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.351043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_master_orchestrator.py",
+      "path": "aethero_master_orchestrator.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_20250605_184337.json",
+      "path": "aethero_audit_20250605_184337.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "outputs",
+      "path": "outputs",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.910043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": ".github",
+      "path": ".github",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.324043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "emergency_deploy.sh",
+      "path": "emergency_deploy.sh",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.906043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "prompts",
+      "path": "prompts",
+      "type": "dir",
+      "last_activity": "2025-06-04T06:22:21.001082",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "unittest_full_report.txt",
+      "path": "unittest_full_report.txt",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.913043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "dashboard",
+      "path": "dashboard",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.904043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_20250605_225714.json",
+      "path": "aethero_audit_20250605_225714.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_20250605_185811.json",
+      "path": "aethero_audit_20250605_185811.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "deployment_protocol.md",
+      "path": "deployment_protocol.md",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.904043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_metrics_integration.py",
+      "path": "aethero_metrics_integration.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.788088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "AETHERO_AUDIT_README.md",
+      "path": "AETHERO_AUDIT_README.md",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.777088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "FINAL_STATUS_REPORT.md",
+      "path": "FINAL_STATUS_REPORT.md",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.786088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "deploy_dashboard.sh",
+      "path": "deploy_dashboard.sh",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.790088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_dashboard_20250602_022027.html",
+      "path": "aethero_dashboard_20250602_022027.html",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_complete_report_20250602_021929.txt",
+      "path": "aethero_complete_report_20250602_021929.txt",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "api",
+      "path": "api",
+      "type": "dir",
+      "last_activity": "2025-06-04T06:10:41.789088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit_20250602_021927.json",
+      "path": "aethero_audit_20250602_021927.json",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_cron.txt",
+      "path": "aethero_audit_cron.txt",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.348043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": ".git",
+      "path": ".git",
+      "type": "dir",
+      "last_activity": "2025-06-06T01:12:52.960014",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "vercel.json",
+      "path": "vercel.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.914043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "archivia_audit.py",
+      "path": "archivia_audit.py",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.903043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "TECHNOLOGY_SCOUTING_REPORT.md",
+      "path": "TECHNOLOGY_SCOUTING_REPORT.md",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.786088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": ".coverage",
+      "path": ".coverage",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.777088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_nextjs",
+      "path": "aethero_nextjs",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.807043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_monumentum_ignis.py",
+      "path": "aethero_monumentum_ignis.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.788088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_units_20250602_022026.csv",
+      "path": "aethero_audit_units_20250602_022026.csv",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "node_modules",
+      "path": "node_modules",
+      "type": "dir",
+      "last_activity": "2025-06-05T20:21:36.638656",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit_units_20250605_184337.csv",
+      "path": "aethero_audit_units_20250605_184337.csv",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.348043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "scripts",
+      "path": "scripts",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.911043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "docker-entrypoint.sh",
+      "path": "docker-entrypoint.sh",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.790088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "main.py",
+      "path": "main.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.790088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "AETHERO_WORK_DOCUMENTATION.md",
+      "path": "AETHERO_WORK_DOCUMENTATION.md",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.777088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "git_push.sh",
+      "path": "git_push.sh",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.790088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "logs",
+      "path": "logs",
+      "type": "dir",
+      "last_activity": "2025-06-05T19:58:17.167703",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "interact_with_orchestra.py",
+      "path": "interact_with_orchestra.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.790088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "CHANGELOG.md",
+      "path": "CHANGELOG.md",
+      "type": "file",
+      "last_activity": "2025-06-06T01:18:03.520003",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "dry_deploy_report.md",
+      "path": "dry_deploy_report.md",
+      "type": "file",
+      "last_activity": "2025-06-04T08:34:17.330622",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_units_20250602_021927.csv",
+      "path": "aethero_audit_units_20250602_021927.csv",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "package.json",
+      "path": "package.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.911043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_complete_pipeline.py",
+      "path": "aethero_complete_pipeline.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.777088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit_units_20250605_191415.csv",
+      "path": "aethero_audit_units_20250605_191415.csv",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.351043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_20250602_021854.json",
+      "path": "aethero_audit_20250602_021854.json",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "test_report.txt",
+      "path": "test_report.txt",
+      "type": "file",
+      "last_activity": "2025-06-04T08:34:17.330622",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "archivia_baseline.json",
+      "path": "archivia_baseline.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.903043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit.py",
+      "path": "aethero_audit.py",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_units_20250605_183756.csv",
+      "path": "aethero_audit_units_20250605_183756.csv",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.348043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_20250605_191415.json",
+      "path": "aethero_audit_20250605_191415.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aeth_mem_reports",
+      "path": "aeth_mem_reports",
+      "type": "dir",
+      "last_activity": "2025-06-04T08:34:17.329622",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "FINAL_SESSION_REPORT_20250606.md",
+      "path": "FINAL_SESSION_REPORT_20250606.md",
+      "type": "file",
+      "last_activity": "2025-06-06T01:03:06.277034",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "copilot",
+      "path": "copilot",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.903043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.905043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "package-lock.json",
+      "path": "package-lock.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.911043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit_20250605_183756.json",
+      "path": "aethero_audit_20250605_183756.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_web",
+      "path": "aethero_web",
+      "type": "dir",
+      "last_activity": "2025-06-06T01:00:08.796040",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_audit_20250602_022026.json",
+      "path": "aethero_audit_20250602_022026.json",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "requirements.txt",
+      "path": "requirements.txt",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.790088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "agents",
+      "path": "agents",
+      "type": "dir",
+      "last_activity": "2025-06-06T00:58:14.903043",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_audit_20250605_185153.json",
+      "path": "aethero_audit_20250605_185153.json",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.336043",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "aethero_dashboard_20250602_021929.html",
+      "path": "aethero_dashboard_20250602_021929.html",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.787088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "Dockerfile",
+      "path": "Dockerfile",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.786088",
+      "reason": "Active in last 90 days"
+    },
+    {
+      "name": "aethero_asl_generator.py",
+      "path": "aethero_asl_generator.py",
+      "type": "file",
+      "last_activity": "2025-06-04T06:10:41.786088",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "AGENT_SHUTDOWN_REPORT_20250604.md",
+      "path": "AGENT_SHUTDOWN_REPORT_20250604.md",
+      "type": "file",
+      "last_activity": "2025-06-04T08:34:17.328622",
+      "reason": "Aethero project keyword"
+    },
+    {
+      "name": "crew_manager_unittest.txt",
+      "path": "crew_manager_unittest.txt",
+      "type": "file",
+      "last_activity": "2025-06-06T00:58:14.903043",
+      "reason": "Active in last 90 days"
+    }
+  ],
+  "remove": [],
+  "summary": {
+    "total": 90,
+    "to_keep": 90,
+    "to_remove": 0
+  }
+}
