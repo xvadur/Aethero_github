@@ -1,0 +1,28 @@
+services:
+  forgejo:
+    image: gitea/gitea:latest
+    container_name: aethero_forgejo
+    restart: unless-stopped
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - FORGEJO__database__DB_TYPE=sqlite3
+      - FORGEJO__database__PATH=/data/forgejo.db
+      - FORGEJO__security__INSTALL_LOCK=false
+    ports:
+      - "3000:3000"  # Web interface
+      - "222:22"     # SSH Git access
+    volumes:
+      - forgejo_data:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - aethero_network
+
+volumes:
+  forgejo_data:
+    driver: local
+
+networks:
+  aethero_network:
+    driver: bridge

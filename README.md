@@ -47,3 +47,12 @@ Toto je produkčný Gradio interface pre orchestráciu AetheroOS agentov.
 - Spúšťa orchestráciu priamo cez Python (bez FastAPI/HTTP requestov)
 - Výstup sa loguje do memory/orchestration_logs/
 - Kompatibilné s Hugging Face Spaces
+
+---
+
+## Deployment Protocol Status
+
+![Deployment Protocol: Active](https://img.shields.io/badge/Deployment%20Protocol-Active-brightgreen)
+
+- Aktuálny protokol: [AETHERO DEPLOY PROTOCOL v1.0](docs/protocols/aeth_deploy_protocol_v1.md)
+- Modulové šablóny: [deployment_protocol.md](deployment_protocol.md)

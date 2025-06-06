@@ -1,0 +1,3 @@
+# DeploySentinel CRON
+# Spúšťa DeploySentinel agenta raz denne v noci a pred každým deployom (príklad pre cron)
+0 2 * * * cd /workspaces/Aethero_github && python agents/deploy_sentinel.py >> logs/deploy_audit/cron_run.log 2>&1

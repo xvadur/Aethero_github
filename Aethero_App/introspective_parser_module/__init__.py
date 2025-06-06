@@ -26,10 +26,10 @@ from .models import (
 )
 from .metrics import (
     CognitiveMetricsAnalyzer,
-    # Legacy functions for backward compatibility
-    calculate_success_rate,
-    analyze_cognitive_load,
-    generate_introspection_report
+    # The following legacy functions are not implemented in metrics.py and are commented out to prevent ImportError
+    # calculate_success_rate,
+    # analyze_cognitive_load,
+    # generate_introspection_report
 )
 from .reflection_agent import AetheroReflectionAgent, ReflectionAgent
 

@@ -1,0 +1,115 @@
+{
+  "audit_metadata": {
+    "session_id": "20250605_184337",
+    "generated_at": "2025-06-05T18:43:37.712712",
+    "git_repo": "/workspaces/Aethero_github",
+    "aetheron_definition": {
+      "base_unit": "1 Aetheron = 1 hodina efektívneho vývoja",
+      "measurement_factors": {
+        "git_commits": 0.3,
+        "shell_commands": 0.2,
+        "cognitive_coherence": 0.3,
+        "time_efficiency": 0.2
+      },
+      "slovak_context": "Meranie produktivity slovenského zdravotníckeho pracovníka"
+    },
+    "total_sessions": 3,
+    "total_aetheron_units": 4,
+    "total_aetherony_generated": 7.406472022160665
+  },
+  "development_sessions": [
+    {
+      "start_time": "2025-06-01T08:22:07",
+      "end_time": "2025-06-01T10:59:31",
+      "duration_hours": 2.6233333333333335,
+      "total_aetherony": 9.5,
+      "commits_count": 19,
+      "commands_count": 0,
+      "cognitive_coherence": 0.5684210526315789,
+      "productivity_rating": "vysoká"
+    },
+    {
+      "start_time": "2025-06-04T01:32:01",
+      "end_time": "2025-06-04T02:39:43",
+      "duration_hours": 1.1283333333333334,
+      "total_aetherony": 1.5,
+      "commits_count": 3,
+      "commands_count": 0,
+      "cognitive_coherence": 0.3,
+      "productivity_rating": "stredná"
+    },
+    {
+      "start_time": "2025-06-04T08:14:41",
+      "end_time": "2025-06-04T08:39:41",
+      "duration_hours": 0.4166666666666667,
+      "total_aetherony": 3.0,
+      "commits_count": 6,
+      "commands_count": 0,
+      "cognitive_coherence": 0.5,
+      "productivity_rating": "vysoká"
+    }
+  ],
+  "aetheron_units": [
+    {
+      "timestamp": "2025-06-01 08:22:07",
+      "aetheron_value": 3.0944975069252076,
+      "git_commit_count": 7,
+      "shell_commands_count": 0,
+      "cognitive_load_estimate": 5.4526315789473685,
+      "development_rhythm_score": 0.7,
+      "efficiency_multiplier": 0.39789473684210525,
+      "context_tags": [
+        "debugging"
+      ]
+    },
+    {
+      "timestamp": "2025-06-01 09:22:07",
+      "aetheron_value": 1.6123745152354572,
+      "git_commit_count": 4,
+      "shell_commands_count": 0,
+      "cognitive_load_estimate": 5.4526315789473685,
+      "development_rhythm_score": 0.4,
+      "efficiency_multiplier": 0.22736842105263158,
+      "context_tags": [
+        "debugging"
+      ]
+    },
+    {
+      "timestamp": "2025-06-04 01:32:01",
+      "aetheron_value": 0.6996,
+      "git_commit_count": 2,
+      "shell_commands_count": 0,
+      "cognitive_load_estimate": 7.6,
+      "development_rhythm_score": 0.2,
+      "efficiency_multiplier": 0.06,
+      "context_tags": [
+        "debugging"
+      ]
+    },
+    {
+      "timestamp": "2025-06-04 08:14:41",
+      "aetheron_value": 2.0,
+      "git_commit_count": 5,
+      "shell_commands_count": 0,
+      "cognitive_load_estimate": 6.0,
+      "development_rhythm_score": 0.5,
+      "efficiency_multiplier": 0.25,
+      "context_tags": []
+    }
+  ],
+  "summary_statistics": {
+    "total_aetherony_generated": 7.41,
+    "average_aetherony_per_hour": 1.85,
+    "average_cognitive_load": 6.13,
+    "average_rhythm_score": 0.45,
+    "most_productive_day": "2025-06-01",
+    "productivity_by_day": {
+      "2025-06-01": 4.706872022160665,
+      "2025-06-04": 2.6996
+    },
+    "top_development_patterns": {
+      "debugging": 3
+    },
+    "development_efficiency_rating": "Vysoká - Efektívny Solo Developer 💪"
+  }
+}

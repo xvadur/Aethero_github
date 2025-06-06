@@ -1,0 +1,2 @@
+# Spúšťanie každonočného auditu a autofixu o polnoci
+0 0 * * * cd /workspaces/Aethero_github && /usr/bin/python3 aethero_audit.py >> logs/audit_cron.log 2>&1
